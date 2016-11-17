@@ -99,7 +99,10 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utilities\DynamicTestingAgent.cs" />
+    <Compile Include="Utilities\Experiments.cs" />
+    <Compile Include="Utilities\ExperimentsService.cs" />
+    <Compile Include="Utilities\ExperimentsServiceFake.cs" />
+    <Compile Include="Utilities\IExperiementsService.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
